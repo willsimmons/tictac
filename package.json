@@ -1,0 +1,29 @@
+{
+  "name": "tictac",
+  "version": "1.0.0",
+  "description": "A Simple TicTac Toe Game",
+  "main": "game.js",
+  "scripts": {
+    "test": "npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/willsimmons/tictac.git"
+  },
+  "keywords": [
+    "A",
+    "Simple",
+    "TicTacToe",
+    "Game"
+  ],
+  "author": "Will Simmons",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/willsimmons/tictac/issues"
+  },
+  "homepage": "https://github.com/willsimmons/tictac#readme",
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^3.2.0"
+  }
+}
