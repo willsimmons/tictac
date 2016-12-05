@@ -9,5 +9,23 @@ let currentPlayer = 'X';
 //if it's a legal turn
 //after the turn we need to check to see if the game is over, if not, then the next player goes
 //
-
-
+let gameOver = false; 
+while (gameOver !== true) {
+  //tie condition
+  if (turnCounter === 9) {
+    console.log('the game is a draw, re run game.js to play again');
+    gameOver = true;
+  }
+  //player plays - can be used for x or y
+  takeTurn(currentPlayer, board){
+    console.log("It's "+ currentPlayer +"'s turn, please enter a square: ");
+    //something revolving stdin to grab the actual input
+    //check to see if the value is a number
+      //if not, then reprompt
+    //check to see if the move is valid
+      //if not, then repompt
+    //check to see if it6's a victory move
+      //if not, then take turn with the other player
+  }
+  turnCounter++;
+}
