@@ -10,7 +10,7 @@
 
 1. [Usage](##Usage)
 2. [Requirements](##Requirements)
-3. [How to Play](##Instructions)
+3. [Instructions](##Instructions)
 
 ## Usage
 
