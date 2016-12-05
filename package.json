@@ -4,7 +4,7 @@
   "description": "A Simple TicTac Toe Game",
   "main": "game.js",
   "scripts": {
-    "test": "npm test"
+    "test": "mocha"
   },
   "repository": {
     "type": "git",
