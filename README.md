@@ -14,6 +14,7 @@
 
 ## Usage
 
+> npm install
 > npm start 
 
 ## Requirements
